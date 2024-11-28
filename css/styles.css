@@ -46,3 +46,81 @@ body {
 .nav a:hover {
     text-decoration: underline;
 }
+
+.hero img {
+    
+    height: 1080px;
+    width: 908;
+  }
+
+  .contendorDescripcion {
+    position: absolute;
+    background-color: #1E0C06;
+    height: 714px;
+    width: 1245px;
+    margin: 218px 0px 0 195px;
+    left: 143px;
+    border-radius: 43px;
+    top: 0;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 2.5), 0px 0px 30px rgba(255, 255, 255, 1.1); /* Sombra detrás */
+  }
+
+  .texto h1 {
+    font-size: 90px;
+    font-weight: bold;
+    width: 0;
+    margin: 75px 573px 318px 50px;
+    color: white;
+  }
+
+  .texto h2 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: mixed;
+    margin: -282px 850px 218px 62px;
+    color: #FFDBBB;
+  }
+
+  .texto .boton_blue {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    border-radius: 70px;
+  }
+
+  .botonn {
+    position: absolute;
+    text-align: center;
+    border-radius: 42px;
+    background-color: #728BAD;
+    width: 225px;
+    height: 58px;
+    margin: -162px 0px 0px 55px;
+  }
+
+  .texto img {
+    height: 508px;
+    position: absolute;
+    top: 68px;
+    left: 598px;
+  }
+
+  .imagenes {
+    width: 205px;
+    height: 205px;
+  }
+
+  .imagenes .img1 {
+    margin: -666px 0 0 927px;
+    position: absolute;
+  }
+
+  .imagenes .img2 {
+    margin: -408px 0 0 660px;
+    position: absolute;
+  }
+
+  .imagenes .img3 {
+    margin: -292px 0 0 903px;
+    position: absolute;
+  }
