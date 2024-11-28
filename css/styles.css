@@ -193,7 +193,7 @@ body {
   .carousel-indicators [data-bs-target] {
     background-color: #A3B8D7;
     position: relative;
-    top: -1080px;
+    top: -1100px;
   }
 
   .section-container {
@@ -208,7 +208,7 @@ body {
     transform: translate(-50%, -50%);
     z-index: 10; 
     color: white; 
-    font-size: 36px; 
+    font-size: 60px; 
     font-weight: bold;
     }
   
@@ -246,3 +246,64 @@ body {
     height: 50px;
     width: 560px
  }
+
+.about-us {
+  background-color: #1E0C06;
+  color: white;
+  padding: 40px;
+  margin: -12px;
+  border-radius: 10px;
+  width: 1325px;
+  height: 846px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 2.5), 0px 0px 30px rgba(255, 255, 255, 1.1); 
+  margin: 100px 0 0 -12px;
+}
+
+.about-us h1 {
+  font-weight: bold;
+  font-size: 80px;
+  width: 501px;
+  margin-top: 44px;
+  margin-left: 80px;
+}
+
+.about-us p {
+  font-size: 100px;
+  width: 516px;
+  height: 294px;
+  padding: 231px, 556px, 256px, 253px;
+  margin-top: 67px;
+  margin-left: 150px;
+  text-align: left;
+}
+
+.imagen-1 {
+  width: 350px;
+  height: 347px;
+  border-radius: 45px;
+  z-index: 2;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.imagen-2 {
+  width: 205px;
+  height: 205px;
+  border-radius: 45px;
+  margin-top: -250px;
+  margin-left: 499px;
+  z-index: 1;
+}
+
+.imagen-3 {
+  width: 205px;
+  height: 205px;
+  border-radius: 45px;
+  margin-left: 140px;
+  z-index: 1;
+  margin-top: 7px;
+}
+
+.container {
+  float: left;
+}
