@@ -191,5 +191,58 @@ body {
   }
   
   .carousel-indicators [data-bs-target] {
-    background-color: #A3B8D7; 
+    background-color: #A3B8D7;
+    position: relative;
+    top: -1080px;
   }
+
+  .section-container {
+    padding: 10px 10px;
+    font-size: 30px;
+ }
+  
+ .title {
+    position: absolute; 
+    top: 1000px; 
+    left: 700px; 
+    transform: translate(-50%, -50%);
+    z-index: 10; 
+    color: white; 
+    font-size: 36px; 
+    font-weight: bold;
+    }
+  
+  .image-container img {
+    border-radius: 45px;
+    width: 609px;
+    height: 386px;
+    margin-top: 500px;
+  }
+  
+  .button {
+    background-color: #728BAD;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 42px;
+    font-weight: bold;
+    border: none;
+    margin-top: 90px;
+    width: 40%;
+
+  }
+  
+  .button:hover {
+    background-color: #376ab0;
+  }
+  
+  .posicion-derecha {
+    right: 50px;
+    font-size: 35px;
+    left: 800px;
+    margin-top: -25px;
+    position: absolute;
+    z-index: 50px;
+    color: #ffffff;
+    height: 50px;
+    width: 560px
+ }
