@@ -9,6 +9,8 @@
 
 body {
     background-color: rgb(34, 32, 33);
+    background-image: url("../img/background-lines.png");
+    background-size: cover;
 }
 
 .header {
