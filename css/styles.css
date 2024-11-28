@@ -397,3 +397,52 @@ textarea {
   height: 200px;
   resize: none;
 }
+
+.footer {
+  background-color: #121212; 
+  color: #fff;
+  padding: 80px 0;
+  box-shadow: -1px 0px 30px rgba(0, 0, 0, 2.5), 3px -11px 20px rgba(255, 255, 255, 1.1);
+  position: absolute;
+  margin-left: -133px;
+  width: 120%;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mb-md-0 {
+  font-size: 30px;
+}
+
+.text-md-end {
+  font-size: 30px;
+}
+
+a {
+  padding: 0 0 0 90px;
+}
+
+@media (min-width: 768px) {
+  .text-md-end {
+      text-align: left !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+      flex: 0 0 auto;
+      width: 29.333333%;
+      margin: 10px 0px 0px 24px;
+      padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1140px;
+      margin: -28px 0px 33px 55px;
+  }
+}
