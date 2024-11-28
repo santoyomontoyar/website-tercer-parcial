@@ -124,3 +124,45 @@ body {
     margin: -292px 0 0 903px;
     position: absolute;
   }
+
+  .wood-section {
+    padding: 50px 0;
+  }
+
+  .wood-card {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .wood-card img {
+    border-radius: 10px;
+    width: 205px;
+    height: 205px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .wood-card h3 {
+    padding: 21px 0 0;
+  }
+
+  .wood-section h1 {
+    font-size: 90px;
+    width: 642px;
+    margin: 110px 0 0 220px;
+    text-align: left;
+    color: #F5F5F5;
+  }
+
+  .list-unstyled li {
+    padding: 12px 0 0 78px;
+    width: 329px;
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  .check::first-letter {
+    color: #FFC099;
+  }
