@@ -49,6 +49,34 @@ body {
     text-decoration: underline;
 }
 
+
+.carousel-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    width: 1000px;
+    height: 110px;
+    font-size: 60px;
+    color: white;
+    margin: 100px 0 0 0;
+  }
+  
+  .carousel-inner img {
+    border-radius: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(400px); 
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #A3B8D7; 
+  }
+
 .fondocolortodo123{
     font-family: Arial, sans-serif;
     margin-top: 236px;
@@ -72,7 +100,7 @@ body {
     margin-left: 100px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
   }
   
   .check {
@@ -82,3 +110,5 @@ body {
   .cross {
     color: #ff6666;
   }
+
+  
