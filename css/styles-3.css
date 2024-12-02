@@ -106,3 +106,30 @@ body {
     z-index: 1;
     margin-top: 7px;
   }
+
+  .carousel-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    width: 1000px;
+    height: 110px;
+    font-size: 60px;
+    color: white;
+    margin: 100px 0 0 0;
+  }
+  
+  .carousel-inner img {
+    border-radius: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(400px); 
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #A3B8D7; 
+  }
