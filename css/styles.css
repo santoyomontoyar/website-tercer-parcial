@@ -20,7 +20,7 @@ body {
   align-items: center;
   border-radius: 0px 0px 79px 79px;
   top: 0;
-  width: 100%;
+  width: 102%;
   height: 181px;
   background-color: #1E0C06;
   z-index: 10;
@@ -34,7 +34,6 @@ body {
 
 .nav {
     display: flex;
-    gap: 75px;
     margin-right: 90px;
 }
 
@@ -187,6 +186,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     margin-top: 50px;
+    
   }
   
   .carousel-control-prev-icon,
@@ -207,12 +207,10 @@ body {
   
  .title {
     position: absolute; 
-    top: 1000px; 
-    left: 700px; 
-    transform: translate(-50%, -50%);
-    z-index: 10; 
     color: white; 
-    font-size: 60px; 
+    left: 348px;
+    top: 829px;
+    font-size: 78px; 
     font-weight: bold;
     }
   
@@ -243,13 +241,23 @@ body {
     right: 50px;
     font-size: 35px;
     left: 800px;
-    margin-top: -25px;
     position: absolute;
-    z-index: 50px;
     color: #ffffff;
     height: 50px;
     width: 560px
  }
+
+ .posicion-derecha p {
+  text-align: right;
+  width: 546px;
+  padding: 0 0 0 0;
+  margin: 45px 0 0 0;
+  position: relative;
+  bottom: 51px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #F5F5F5;
+  }
 
 .about-us {
   background-color: #1E0C06;
