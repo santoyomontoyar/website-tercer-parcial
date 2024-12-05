@@ -88,3 +88,15 @@ body {
     border-radius: 45px;
     height: 100px;
 }
+
+.itemf {
+    padding: 20px 0 15px;
+}
+
+.container-fluid {
+    box-shadow: -1px 0px 30px rgba(0, 0, 0, 2.5), 3px 8px 35px  rgba(255, 255, 255, 1.1);
+    position: relative;
+    width: 1357px;
+    top: 85px;
+    right: 8px;
+}
