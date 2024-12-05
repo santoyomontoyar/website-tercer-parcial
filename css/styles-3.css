@@ -226,14 +226,13 @@ body {
     resize: none;
   }
   
-.itemf {
+  .itemf {
     padding: 20px 0 15px;
-}
+  }
 
-.container-fluid {
+  .container-fluid {
+    background-color: #222021;
+    margin-top: 80px;
     box-shadow: -1px 0px 30px rgba(0, 0, 0, 2.5), 3px 8px 35px  rgba(255, 255, 255, 1.1);
     position: relative;
-    width: 1583px;
-    top: 85px;
-    right: 144px;
-}
+  }
