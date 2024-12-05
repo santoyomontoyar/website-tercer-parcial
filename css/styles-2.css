@@ -9,6 +9,8 @@
 
 body {
     background-color: rgb(34, 32, 33);
+    background-image: url("../img/Line2.png");
+    background-size: cover;
 }
 
 .header {
@@ -56,7 +58,7 @@ body {
     height: 110px;
     font-size: 60px;
     color: white;
-    margin: 212px 0 0 0;
+    margin: 283px 660px 100px 248px;
   }
   
   .carousel-inner img {
@@ -80,38 +82,54 @@ body {
     margin-top: 236px;
   }
   
-  .tituloprincipalthewood h1{
-    width: 900px;
-    height: 100px;
-    font-size: 80px;
-    margin-left: 237px;
-    color: white;
-    margin-bottom: 125px;
-  }
-  
-  .todoelcontenido{
-    padding-top: 150px;
-    color: white;
-  }
-  
-  .item {
-    margin-left: 100px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .check {
-    color: #ffcc66;
-  }
-  
-  .cross {
-    color: #ff6666;
+  .wood-section {
+    padding: 50px 0;
   }
 
+  .wood-card {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .wood-card img {
+    border-radius: 10px;
+    width: 205px;
+    height: 205px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .wood-card h3 {
+    padding: 21px 0 0;
+  }
+
+  .wood-section h1 {
+    font-size: 90px;
+    width: 800px;
+    margin: 110px 0 0 220px;
+    text-align: left;
+    color: #F5F5F5;
+  }
+
+  .list-unstyled li {
+    padding: 12px 0 0 78px;
+    width: 329px;
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  .check::first-letter {
+    color: #FFC099;
+  }
+
+.any {
+  top: 128px;
+}
+
 h1 {
-    padding: 50px 5px 0;
-    margin: 240px 240px 100px;
+    margin: 185px 49px 42px 487px;
     text-align: right;
     font-size: 90px;
     color: #F5F5F5;
@@ -204,12 +222,11 @@ h1 {
 
   .itemf {
     padding: 20px 0 15px;
-}
+  }
 
-.container-fluid {
+  .container-fluid {
+    background-color: #222021;
+    margin-top: 80px;
     box-shadow: -1px 0px 30px rgba(0, 0, 0, 2.5), 3px 8px 35px  rgba(255, 255, 255, 1.1);
     position: relative;
-    width: 1583px;
-    top: 85px;
-    right: 144px;
-}
+  }
